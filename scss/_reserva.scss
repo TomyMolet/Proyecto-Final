@@ -1,0 +1,30 @@
+@import "colores";
+@import "fuentes";
+@import "mixins";
+
+.footerReserva{
+    background-color: black;
+    text-align: center;
+    color: rgb(122, 122, 122);
+    margin-top: 0em;
+    padding-bottom: 2.5em;
+    padding-top: 2.5em;  
+    font-family: $fuente-principal;
+}
+#pagReserva{
+    min-height: 100vh;
+    background: url("../img/Fondo\ reserva.jpg") no-repeat center center fixed;
+    background-size: cover; 
+    p {
+        color: white;
+        font-family: $fuente-principal;
+    }
+    h3{
+        text-align: center;
+        font-size: 3em;
+        padding-top: 1em;
+        color: rgb(255, 255, 255);
+        padding-bottom: 1em;
+        font-family: $fuente-principal;
+    }
+}

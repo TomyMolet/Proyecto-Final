@@ -1,0 +1,30 @@
+@import "colores";
+@import "fuentes";
+@import "mixins";
+#pagdestino{
+    min-height: 100vh;
+    background: url("../img/destino.jpg?1") no-repeat center center fixed;
+    background-size: cover; 
+}
+
+.card{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    caption-side: bottom;
+    width: 18rem;
+    
+    .card-text {
+        padding-bottom: 1em;
+    }
+}
+
+
+.footerDestino{
+    background-color: black;
+    text-align: center;
+    color: rgb(122, 122, 122);
+    margin-top: 0em;
+    padding-bottom: 2.5em;
+    padding-top: 2.5em;  
+    font-family: $fuente-principal;
+}
